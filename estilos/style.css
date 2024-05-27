@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+  font-size: 2em;
+  text-align: center;
+  background-color: gray;
+  padding: 10px;
+  border: 1px solid black;
+  border-bottom: 0px;
+  font-weight: bolder;
+}
+
+table {
+  width: 700px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.tech {
+  background-color: rgb(57, 148, 252);
+}
+
+.food {
+  background-color: rgb(255, 255, 81);
+}
+
+.clean {
+  background-color: rgb(194, 255, 73);
+}
+
+.valor {
+  background-color: rgb(252, 57, 57);
+  font-weight: bold;
+  text-align: right;
+}
+
+.valor::before {
+  content: 'R$ ';
+}
+
+.value {
+  background-color: rgb(252, 57, 57);
+  font-weight: bold;
+}
